@@ -30,7 +30,7 @@
 
        />
    <TextView
-       android:id="@+id/info"
+       android:id="@+id/text_info"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        app:layout_constraintTop_toBottomOf="@+id/edit_age"
@@ -42,10 +42,10 @@
        android:textColor="@color/white"
        />
    <Button
-       android:id="@+id/calc"
+       android:id="@+id/button_calc"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       app:layout_constraintTop_toBottomOf="@+id/info"
+       app:layout_constraintTop_toBottomOf="@+id/text_info"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintRight_toRightOf="parent"
